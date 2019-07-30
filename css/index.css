@@ -181,7 +181,10 @@ body {
   height: 75%;
   align-items: center;
   margin-right: 10%;
-  border: 2px solid green;
+}
+.helpothers {
+  height: 350px;
+  padding-left: 10%;
 }
 .left-content {
   background-color: lightgray;
@@ -201,7 +204,6 @@ body {
   color: white;
 }
 .btn-layout {
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   width: 75%;
