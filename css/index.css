@@ -178,33 +178,34 @@ body {
 .cards {
   display: flex;
   justify-content: space-between;
+  height: 75%;
   align-items: center;
+  margin-right: 10%;
   border: 2px solid green;
 }
 .left-content {
   background-color: lightgray;
   margin: 0 auto;
   margin-top: 5%;
-  max-width: 30%;
+  max-width: 50%;
   border: 3px solid black;
-}
-.right-content {
-  background-color: lightgray;
-  margin-top: 5%;
-  max-width: 30%;
-  border: 3px solid black;
-}
-.with-btn {
-  display: flex;
 }
 .btn {
-  background-color: black;
-  color: azure;
+  background-image: url("../img/menu-back.jpg");
+  color: black;
   font-size: 30px;
   cursor: pointer;
 }
+.btn:hover {
+  background-image: url("../img/menu-hover.jpg");
+  color: white;
+}
 .btn-layout {
+  border: 2px solid red;
   display: flex;
+  justify-content: space-between;
+  width: 75%;
+  height: 15%;
 }
 .footer {
   display: flex;
