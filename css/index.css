@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 body {
-  width: 1000px;
+  width: 1500px;
   margin: auto;
 }
 .top-page {
@@ -138,20 +138,64 @@ body {
   margin-top: 5%;
   max-width: 90%;
 }
+.logo {
+  display: flex;
+  max-width: 30%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  margin: auto;
+}
+.top-page {
+  margin: auto;
+  border: 3px solid black;
+  padding-bottom: 5px;
+  padding: 10px 10px;
+  background-image: url("../img/menu-back.jpg");
+}
+.nav-box {
+  color: black;
+  text-decoration: none;
+  margin: auto;
+  padding: 1% 5%;
+  border: 2px solid black;
+}
+.nav-box:hover {
+  background-image: url("../img/menu-hover.jpg");
+  color: white;
+}
 .middle-content {
   display: flex;
-  flex-wrap: wrap;
-  font-size: 30px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  height: 800px;
+  padding: 5%;
+  margin-top: 5%;
   border-top: 5px solid black;
+  background-image: url(../img/help.png);
+  background-size: 100% auto;
 }
-.left-image {
+.cards {
   display: flex;
-  flex-wrap: wrap;
-  padding-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
 }
-.help-now {
+.left-content {
+  background-color: lightgray;
+  margin: 0 auto;
+  margin-top: 5%;
+  max-width: 30%;
+  border: 3px solid black;
+}
+.right-content {
+  background-color: lightgray;
+  margin-top: 5%;
+  max-width: 30%;
+  border: 3px solid black;
+}
+.with-btn {
   display: flex;
-  max-width: 25%;
 }
 .btn {
   background-color: black;
@@ -161,16 +205,11 @@ body {
 }
 .btn-layout {
   display: flex;
-  justify-content: space-evenly;
 }
 .footer {
   display: flex;
   justify-content: center;
+  margin: auto;
   border: 2px solid black;
   background-color: beige;
-}
-.logo {
-  display: flex;
-  max-width: 25%;
-  padding-bottom: 5%;
 }
