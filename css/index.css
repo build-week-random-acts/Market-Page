@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 body {
-  width: 1500px;
+  width: 1000px;
   margin: auto;
 }
 .top-page {
@@ -188,7 +188,7 @@ body {
 }
 .left-content {
   background-color: lightgray;
-  margin: 0 auto;
+  margin-left: 2%;
   margin-top: 5%;
   max-width: 50%;
   border: 3px solid black;
