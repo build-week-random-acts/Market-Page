@@ -165,6 +165,7 @@ body {
 }
 .middle-content {
   display: flex;
+  font-family: 'Ubuntu Condensed', sans-serif;
   flex-direction: column;
   align-items: center;
   font-size: 45px;
@@ -216,6 +217,25 @@ body {
   border: 2px solid black;
   background-color: beige;
 }
+@media only screen and (max-width: 500px) {
+  body {
+    max-width: 500px;
+    margin: auto;
+  }
+  .logo {
+    display: flex;
+  }
+  .left-content {
+    max-height: 60%;
+    font-size: 15px;
+  }
+  .helpothers {
+    display: none;
+  }
+  .middle-content {
+    background-image: none;
+  }
+}
 .logo {
   display: flex;
   max-width: 30%;
@@ -265,6 +285,7 @@ body {
   border-radius: 15px;
 }
 .aboutimage {
+  font-family: 'Ubuntu Condensed', sans-serif;
   border: 2px solid black;
   background-color: beige;
 }
